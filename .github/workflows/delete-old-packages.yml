@@ -7,8 +7,12 @@ on:
 
 jobs:
   delete-old-packages:
-    uses: SmartsquareGmbH/delete-old-packages@v0.3.2
-    with: 
-      names: HelloWorld.helloworld
-      keep: 3
-      dry-run: true
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Delete old packages
+        uses: SmartsquareGmbH/delete-old-packages@v0.3.2
+        with: 
+            names: mavenpackage.demo
+            keep: 2
+            dry-run: true
