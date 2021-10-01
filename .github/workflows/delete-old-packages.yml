@@ -15,4 +15,4 @@ jobs:
         with: 
             names: mavenpackage.demo
             keep: 2
-            dry-run: true
+            dry-run: false
