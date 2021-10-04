@@ -17,5 +17,5 @@ jobs:
             repo: HelloWorld
             names: HelloWorld.helloworld
             keep: 2
-            dry-run: true
+            dry-run: false
             token: ${{ secrets.PAT}}
