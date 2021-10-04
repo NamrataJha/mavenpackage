@@ -12,6 +12,7 @@ jobs:
     steps:
       - name: Delete old packages
         uses: SmartsquareGmbH/delete-old-packages@v0.3.2
+        keep: 3
         with: 
             owner: NamrataJha
             repo: |
@@ -20,6 +21,5 @@ jobs:
             names: |
               mavenpackage.demo
               HelloWorld.helloworld
-            keep: 3
             dry-run: false
             access-token: ${{ secrets.GITHUB_PAT}}
