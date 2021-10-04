@@ -22,4 +22,4 @@ jobs:
               mavenpackage.demo
               HelloWorld.helloworld
             dry-run: false
-            access-token: ${{ secrets.GITHUB_PAT}}
+            access-token: ${{ secrets.PAT}}
