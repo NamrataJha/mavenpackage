@@ -17,7 +17,7 @@ jobs:
             repo: mavenpackage
             names: mavenpackage.demo
             keep: 2
-            dry-run: false
+            dry-run: true
             token: ${{ secrets.PAT}}
       - name: Delete gradle package
         uses: SmartsquareGmbH/delete-old-packages@v0.3.2
@@ -26,5 +26,5 @@ jobs:
             repo: HelloWorld
             names: HelloWorld.helloworld
             keep: 1
-            dry-run: false
+            dry-run: true
             token: ${{ secrets.PAT}}
