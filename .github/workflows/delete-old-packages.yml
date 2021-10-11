@@ -14,12 +14,8 @@ jobs:
         uses: SmartsquareGmbH/delete-old-packages@v0.3.2
         with: 
             owner: NamrataJha
-            repo: |
-              mavenpackage
-              HelloWorld
-            names: |
-              mavenpackage.demo
-              HelloWorld.helloworld
+            repo: HelloWorld
+            names: HelloWorld.helloworld
             keep: 2
             dry-run: true
             token: ${{ secrets.PAT}}
