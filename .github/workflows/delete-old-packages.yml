@@ -11,11 +11,9 @@ jobs:
     
     steps:
       - name: Delete maven package
-        uses: SmartsquareGmbH/delete-old-packages@v0.3.2
+        uses: NamrataJha/delete-package-versions@29f8472f2738555b640cd6d5554d057687ec2fa8
         with: 
             owner: NamrataJha
             repo: mavenpackage
-            names: mavenpackage.demo
-            keep: 2
-            dry-run: true
-            token: ${{ secrets.PAT}}
+            package-name: mavenpackage.demo
+            min-versions-to-keep: 3
