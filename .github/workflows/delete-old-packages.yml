@@ -16,4 +16,5 @@ jobs:
             owner: NamrataJha
             repo: mavenpackage
             package-name: mavenpackage.demo
-            min-versions-to-keep: 3
+            min-versions-to-keep: 0
+            num-old-versions-to delete: 0
