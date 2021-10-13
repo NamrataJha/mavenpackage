@@ -17,4 +17,4 @@ jobs:
             repo: mavenpackage
             package-name: mavenpackage.demo
             min-versions-to-keep: 3
-            num-old-versions-to-delete: 0
+            num-old-versions-to-delete: 1
