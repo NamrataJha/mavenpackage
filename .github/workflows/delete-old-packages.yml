@@ -3,7 +3,7 @@ name: delete-old-packages
   # uses: SmartsquareGmbH/delete-old-packages@87726d22de419a4d3c467bb118ebc17c010b806f
 on:
   registry_package:
-    types: [published]
+    types: [updated]
 
 jobs:
   delete-old-packages:
