@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/namratajha/GithubMe/mavenpackage/demo/target/surefire/surefirebooter8465311204250483962.jar /Users/namratajha/GithubMe/mavenpackage/demo/target/surefire 2021-10-11T14-03-59_099-jvmRun1 surefire7951663229333410449tmp surefire_017581155348857173182tmp"/>
+    <property name="sun.java.command" value="/Users/namratajha/GithubMe/mavenpackage/demo/target/surefire/surefirebooter14276524499301290408.jar /Users/namratajha/GithubMe/mavenpackage/demo/target/surefire 2021-10-17T01-41-11_793-jvmRun1 surefire13186409133351893595tmp surefire_015826289805295669219tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/namratajha/GithubMe/mavenpackage/demo/target/test-classes:/Users/namratajha/GithubMe/mavenpackage/demo/target/classes:/Users/namratajha/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/namratajha/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/namratajha/GithubMe/mavenpackage/demo/target/surefire/surefirebooter8465311204250483962.jar"/>
+    <property name="surefire.real.class.path" value="/Users/namratajha/GithubMe/mavenpackage/demo/target/surefire/surefirebooter14276524499301290408.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="11.0.12+7"/>
