@@ -17,6 +17,6 @@ jobs:
             owner: NamrataJha
             repo: mavenpackage
             package-name: mavenpackage.demopack
-            package-version-names: 1.4-SNAPSHOT
+            package-version-names: 1.5-SNAPSHOT
             min-versions-to-keep: 3
             num-old-versions-to-delete: 1
