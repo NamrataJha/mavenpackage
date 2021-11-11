@@ -19,4 +19,4 @@ jobs:
             package-name: mavenpackage.demopack
             min-versions-to-keep: 2
             num-old-versions-to-delete: 1
-            ignore-package-version: "^(?!.*)$"
+            ignore-versions: "^[\\d*]+.[\\d*]+.[0*]+$"
