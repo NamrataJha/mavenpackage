@@ -12,11 +12,10 @@ jobs:
     
     steps:
       - name: Delete maven package
-        uses: namratajha/delete-package-versions@fc64ffbb14c32e26f1570dfc2dc2dda9b8cce3af
+        uses: namratajha/delete-package-versions@655878d7a090a26026e52275ec07c9eacb603454
         with: 
             owner: NamrataJha
             repo: mavenpackage
             package-name: mavenpackage.demopack
             min-versions-to-keep: 2
             num-old-versions-to-delete: 4
-            min-pre-release-versions-to-keep: 1
