@@ -19,4 +19,4 @@ jobs:
             package-name: mavenpackage.demopack
             num-old-versions-to-delete: 4
             delete-only-pre-release-versions: true
-            min-versions-to-keep: 0
+            min-versions-to-keep: 3
