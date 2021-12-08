@@ -17,4 +17,4 @@ jobs:
             owner: NamrataJha
             repo: mavenpackage
             package-name: mavenpackage.demopack
-            num-old-versions-to-delete: 10
+            num-old-versions-to-delete: 6
