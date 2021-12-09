@@ -12,7 +12,7 @@ jobs:
     
     steps:
       - name: Delete maven package
-        uses: namratajha/delete-package-versions@59bed40841a21a17da395c1a8f807776226c8ab7
+        uses: namratajha/delete-package-versions@055d738433261dbffa9ad2a0192b69df23be3abb
         with: 
             owner: NamrataJha
             repo: mavenpackage
