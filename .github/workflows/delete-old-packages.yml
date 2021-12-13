@@ -12,10 +12,10 @@ jobs:
     
     steps:
       - name: Delete maven package
-        uses: namratajha/delete-package-versions@a3dfbfcd5c3cb3bcf9d762f5e7dc5331bf323bc4
+        uses: namratajha/delete-package-versions@a1f5428f1ce4f8a37fec21346abdd7390bac789e
         with: 
             owner: NamrataJha
             repo: mavenpackage
             package-name: mavenpackage.demopack
-            num-old-versions-to-delete: 6
-            ignore-versions: '^(0|[1-9]\\d*)\\.0\\.0$'
+            num-old-versions-to-delete: 10
+            ignore-versions: '^(0|[1-9]\\d*)((\\.(0|[1-9]\\d*))*)$'
