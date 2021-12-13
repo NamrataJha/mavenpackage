@@ -18,3 +18,4 @@ jobs:
             repo: mavenpackage
             package-name: mavenpackage.demopack
             num-old-versions-to-delete: 6
+            ignore-versions: '^(0|[1-9]\\d*)\\.0\\.0$'
