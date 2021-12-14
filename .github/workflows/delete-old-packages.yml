@@ -18,3 +18,4 @@ jobs:
             repo: mavenpackage
             package-name: mavenpackage.demopack
             delete-only-pre-release-versions: "true"
+            min-versions-to-keep: 1
