@@ -17,4 +17,5 @@ jobs:
             owner: NamrataJha
             repo: mavenpackage
             package-name: mavenpackage.demopack
-            min-versions-to-keep: 4
+            min-versions-to-keep: 1
+            ignore-versions: "^(0|[1-9]\\d*)\\.0\\.0$"
