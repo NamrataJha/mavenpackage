@@ -17,6 +17,6 @@ jobs:
             owner: NamrataJha
             repo: mavenpackage
             package-name: mavenpackage.demopack
-            num-old-versions-to-delete: 2
+            num-old-versions-to-delete: 0
             ignore-versions: "^(0|[1-9]\\d*)((\\.(0|[1-9]\\d*))*)$"
             delete-only-pre-release-versions: "true"
