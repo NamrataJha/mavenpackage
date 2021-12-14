@@ -19,4 +19,4 @@ jobs:
             package-name: mavenpackage.demopack
             num-old-versions-to-delete: 2
             ignore-versions: "^(0|[1-9]\\d*)((\\.(0|[1-9]\\d*))*)$"
-            min-versions-to-keep: 3
+            delete-only-pre-release-versions: "true"
