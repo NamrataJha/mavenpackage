@@ -17,5 +17,5 @@ jobs:
             owner: NamrataJha
             repo: delete-package-versions-actions-test
             package-name: delete-package-versions-actions-test
-            num-old-versions-to-delete: 20
+            num-old-versions-to-delete: 170
             token: ${{ secrets.PAT }}
