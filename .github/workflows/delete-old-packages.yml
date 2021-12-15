@@ -15,7 +15,7 @@ jobs:
         uses: actions/delete-package-versions@8c24449b5635f821c7b8b36b863cb2b8a66a37d9
         with: 
             owner: NamrataJha
-            repo: delete-package-versions-actions-test
-            package-name: delete-package-versions-actions-test
+            repo: mavenpackage
+            package-name: mavenpackage.demopack
             min-versions-to-keep: 20
             token: ${{ secrets.PAT }}
