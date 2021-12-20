@@ -17,5 +17,5 @@ jobs:
             owner: NamrataJha
             repo: delete-package-versions-actions-test
             package-name: delete-package-versions-actions-test
-            min-versions-to-keep: 110
+            min-versions-to-keep: 10
             token: ${{ secrets.PAT }}
