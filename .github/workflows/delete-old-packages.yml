@@ -12,10 +12,10 @@ jobs:
     
     steps:
       - name: Delete maven package
-        uses: actions/delete-package-versions@a22ff2a7c59a73a2a9841f40c8b071c63ffeb65a
+        uses: actions/delete-package-versions@36894fd813ac8424cee4ecb6ade5d1426fb75206
         with: 
             owner: NamrataJha
             repo: delete-package-versions-actions-test
             package-name: delete-package-versions-actions-test
-            num-old-versions-to-delete: 110
+            min-versions-to-keep: 10
             token: ${{ secrets.PAT }}
